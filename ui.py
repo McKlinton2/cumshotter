@@ -44,8 +44,8 @@ class  CS_PT_MainPanel(bpy.types.Panel):
     velocity_curve = None
     #bl_options = {"DEFAULT_CLOSED"}
 
-    def __init__(self):
-        self.set_velocity_curve_defaults()
+    #def __init__(self):
+    #    self.set_velocity_curve_defaults()
 
     def draw(self, context):
 
@@ -58,8 +58,7 @@ class  CS_PT_MainPanel(bpy.types.Panel):
         layout.prop(scene, "thickness")        
         layout.prop(scene, "velocity")
         layout.label(text="Velocity Curve")
-        layout.template_curve_mapping(self.velocity_curve, "mapping")
-        #self.invokeFunction(layout, "resetEndPoints", text = "Reset End Points")
+        layout.template_curve_mapping(CurveData_add('Velocity'), "mapping")
         layout.prop(scene, "length")   
         layout.prop(scene, "physics_resolution") 
         layout.prop(scene, "spline_resolution")           

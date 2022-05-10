@@ -12,7 +12,7 @@ If you use this addon in your public projects, I would highly appreciate if you 
 
  
 ### Quick guide:
-1. Download zip file from the above link and install addon to Blender (currently tested only with version 3.1).
+1. Download zip file from the [this link](https://github.com/McKlinton2/cumshotter/archive/refs/heads/main.zip) and install addon to Blender (currently tested only with version 3.1).
 2. Create e.g. `Empty` object in the scene like this:
 <img src="https://github.com/McKlinton2/cumshotter/blob/main/images/1.jpg" width="400">
 
